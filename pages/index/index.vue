@@ -1,5 +1,6 @@
 <template>
 	<view class="container">
+		test
 	</view>
 </template>
 
