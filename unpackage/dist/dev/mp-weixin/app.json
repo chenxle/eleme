@@ -1,20 +1,19 @@
 {
-    "pages": [
-        "pages/index/index",
-        "pages/user/user"
-    ],
-    "subPackages": [],
-    "window": {
-        "navigationBarTextStyle": "white",
-        "navigationBarTitleText": "uni-app",
-        "navigationBarBackgroundColor": "#007AFF",
-        "backgroundColor": "#FFFFFF"
-    },
-    "permission": {
-        "scope.userLocation": {
-            "desc": "练习"
-        }
-    },
-    "usingComponents": {},
-    "sitemapLocation": "sitemap12.json"
+  "pages": [
+    "pages/user/user",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "练习"
+    }
+  },
+  "usingComponents": {}
 }

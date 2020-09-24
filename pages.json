@@ -1,9 +1,8 @@
 {
 	"pages": [{
-		"path": "pages/index/index"
+		"path" : "pages/user/user"
 	},{
-		"path" : "pages/user/user",
-		"style" : {}
+		"path": "pages/index/index"
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",

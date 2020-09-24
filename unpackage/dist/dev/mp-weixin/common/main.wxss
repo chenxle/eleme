@@ -21,3 +21,34 @@
 
 
 
+
+@font-face {
+  font-family: 'iconfont';  /* project id 2092422 */
+  src: url('https://at.alicdn.com/t/font_2092422_u6cqd6zqcj.eot');
+  src: url('https://at.alicdn.com/t/font_2092422_u6cqd6zqcj.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_2092422_u6cqd6zqcj.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_2092422_u6cqd6zqcj.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_2092422_u6cqd6zqcj.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_2092422_u6cqd6zqcj.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon_zhanghao:before {
+  content: "\eb8a";
+}
+
+.icon-index-fill:before {
+  content: "\e626";
+}
+
+.icon-greater-than-solid:before{
+	content: "\e6b1";
+}
+
