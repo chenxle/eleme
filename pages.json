@@ -2,8 +2,11 @@
 	"pages": [{
 		"path" : "pages/user/user"
 	},{
+         "path" : "pages/order/order"
+	},{
 		"path": "pages/index/index"
-	}],
+        }
+    ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
 		"navigationBarTitleText": "uni-app",

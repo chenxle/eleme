@@ -1,6 +1,10 @@
 import Vue from 'vue'
 import App from './App'
 import './static/iconfont/iconfont.css'
+//引入vuex
+import store from './store'
+//把vuex定义成全局组件
+Vue.prototype.$store = store
 
 Vue.config.productionTip = false
 
