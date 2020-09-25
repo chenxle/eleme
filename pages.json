@@ -60,7 +60,13 @@
         ,{
             "path" : "pages/shippingSite/shippingSite",
             "style" : {}
-        }
+        },
+		{
+			"path":"pages/login/login"
+		},
+		{
+			"path":"pages/login/photoLogin/photoLogin"
+		}
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",

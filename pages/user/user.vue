@@ -69,7 +69,7 @@
 		<!-- 其它功能 -->
 		<view class="divisions">
 			<!-- 我的地址 -->
-			<navigator url="" class="division">
+			<navigator url="/pages/shippingSite/shippingSite" class="division">
 				<view class="item">
 					<view>
 						<image src="/static/images/site.png" mode=""></image>

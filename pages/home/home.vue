@@ -85,16 +85,16 @@
 		},
 		methods: {
 			async getGonggeData() {
-				var {
+				var 
 					message
-				} = await getGongge();
+				 = await getGongge();
 				console.log(message);
 				this.gongGeData = message;
 			},
 			async getshoplistData() {
-				var {
+				var 
 					message
-				} = await getShopList();
+				 = await getShopList();
 				this.getShopData = message;
 			},
 			setSelect1(){
