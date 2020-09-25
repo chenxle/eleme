@@ -6,8 +6,12 @@
     "pages/search/search",
     "pages/index/index",
     "pages/shoplist/shoplist",
+<<<<<<< HEAD
     "pages/orderRemind/orderRemind",
     "pages/shippingSite/shippingSite"
+=======
+    "pages/orderRemind/orderRemind"
+>>>>>>> remotes/origin/master
   ],
   "subPackages": [],
   "window": {
