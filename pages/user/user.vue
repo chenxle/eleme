@@ -48,12 +48,14 @@
 				<text class="title">点餐提醒</text>
 				<text class="num">已有<text>{{49254}}</text>人提醒自己按时吃饭</text>
 			</view>
-			<button class="button" size="mini" style="background-color: rgb(0, 166, 255);margin-right: 20rpx;">立即开启</button>
+			<navigator url="../orderRemind/orderRemind">
+				<button class="button" size="mini" style="background-color: rgb(0, 166, 255);margin-right: 20rpx;">立即开启</button>
+			</navigator>
 		</view>
 		<!-- 其它功能 -->
 		<view class="divisions">
 			<!-- 我的地址 -->
-			<navigator url="" class="division">
+			<navigator url="../shippingSite/shippingSite" class="division">
 				<view class="item">
 					<view>
 						<image src="/static/images/site.png" mode=""></image>
@@ -124,15 +126,15 @@
 	export default {
 		data() {
 			return {
-				version:'1.1.9'
+				version: '1.1.9'
 			}
 		},
 		methods: {
 
 		},
-		computed:{
-			getIsLogin(){
-				console.log(this.$store.getters.getIsLogin , "asdfasdfasdkfjiewnf")
+		computed: {
+			getIsLogin() {
+				console.log(this.$store.getters.getIsLogin, "asdfasdfasdkfjiewnf")
 				return this.$store.getters.getIsLogin;
 			}
 		}
@@ -195,6 +197,7 @@
 
 				.text {
 					margin: 26rpx 0;
+
 					view {
 						color: #333;
 						font-weight: 500;
@@ -208,6 +211,7 @@
 
 				.img {
 					margin-top: 24rpx;
+
 					image {
 						width: 50rpx;
 						height: 50rpx;
@@ -215,37 +219,46 @@
 				}
 			}
 		}
-		
-			/* 闹钟 */
-			.warn .img {
-				width: 100rpx;
-				height: 100rpx;
-			}
-			.warn {
-				display: flex;
-				justify-content: space-around;
-				border: 2rpx solid rgb(225, 229, 238);
-				align-items: center;
-				border-radius: 16rpx;
-				margin: 20rpx 0;
-				padding: 26rpx 0;
-			}
-			.warn .middle {
-				display: flex;
-				flex-direction: column;
-			}
-			.warn .middle .title {
-				color: rgb(0, 87, 134)
-			}
-			.warn .middle .num {
-				font-size: 24rpx;
-				color: rgb(102, 154, 182);
-				text {
-					color: skyblue;
-					margin: 0 4rpx;
-					font-weight: 900;
-				}
+
+		/* 闹钟 */
+		.warn .img {
+			width: 100rpx;
+			height: 100rpx;
+		}
+
+
+		.warn {
+			display: flex;
+			justify-content: space-around;
+			border: 2rpx solid rgb(225, 229, 238);
+			align-items: center;
+			border-radius: 16rpx;
+			margin: 20rpx 0;
+			padding: 26rpx 0;
+		}
+
+
+		.warn .middle {
+			display: flex;
+			flex-direction: column;
+		}
+
+
+		.warn .middle .title {
+			color: rgb(0, 87, 134)
+		}
+
+
+		.warn .middle .num {
+			font-size: 24rpx;
+			color: rgb(102, 154, 182);
+
+			text {
+				color: skyblue;
+				margin: 0 4rpx;
+				font-weight: 900;
 			}
+		}
 
 
 		.divisions {
@@ -280,6 +293,7 @@
 				}
 			}
 		}
+
 		.versions {
 			display: flex;
 			margin: 20rpx 0;

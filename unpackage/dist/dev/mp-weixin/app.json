@@ -4,7 +4,9 @@
     "pages/user/user",
     "pages/order/order",
     "pages/search/search",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/shoplist/shoplist",
+    "pages/orderRemind/orderRemind"
   ],
   "subPackages": [],
   "window": {
