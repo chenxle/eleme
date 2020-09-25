@@ -15,30 +15,26 @@
 			<image class="img" src="../../static/images/tunnel.jpg"></image>
 		</view>
 		<!-- 宫格 -->
-		<view class="gongge">
+		<view class="gongge" style="margin: 20rpx 0;">
 			<uni-grid :column="5" :showBorder="false">
 				<uni-grid-item v-for="item in gongGeData" :key="item.id">
-					<navigator :url="'/pages/shoplist/shoplist?id='+item.id">
-						<view>
-							<image class="img" :src="item.img"></image>
-						</view>
-						<view class="title">
-							<text class="text">{{item.title}}</text>
-						</view>
-					</navigator>
+					<view style="width: 140rpx;height: 100rpx;">
+						<image class="img" :src="item.img"></image>
+					</view>
+					<view class="title">
+						<text class="text">{{item.title}}</text>
+					</view>
 				</uni-grid-item>
 			</uni-grid>
 		</view>
 		<!-- 点餐提醒 -->
-		<view class="warn" style="height: 76px; margin-top:40px;">
+		<view class="warn" style="height: 76px; margin-top:40px;" v-if="getIsLogin">
 			<image class="img" src="../../static/images/naozhong.png"></image>
 			<view class="middle">
 				<text class="title">点餐提醒</text>
 				<text class="num">已有49254人提醒自己按时吃饭</text>
 			</view>
-			<navigator url="../orderRemind/orderRemind">
-				<button class="button" size="mini" style="background-color: rgb(0, 166, 255)">立即开启</button>
-			</navigator>
+			<button class="button" size="mini" style="background-color: rgb(0, 166, 255)">立即开启</button>
 		</view>
 		<!-- 赏金 -->
 		<view class="red-money">
@@ -48,10 +44,10 @@
 		<view class="recommend">
 			<view class="title">推荐商家</view>
 			<view class="screen">
-				<button class="first button" @click="setSelect1" :class="isSelect1?'select':''" type="default" size="mini">首单立减</button>
-				<button class="subsiby button" @click="setSelect2" :class="isSelect2?'select':''" type="default" size="mini">津贴优惠</button>
-				<button class="full button" @click="setSelect3" :class="isSelect3?'select':''" type="default" size="mini">满减优惠</button>
-				<button class="return button" @click="setSelect4" :class="isSelect4?'select':''" type="default" size="mini">下单返红包</button>
+				<button class="first button" @click="setSelect1" type="default" size="mini" :style="{'background-color':(isSelect1?'skyblue':'')}">首单立减</button>
+				<button class="subsiby button" @click="setSelect2" type="default" size="mini" :style="{'background-color':(isSelect2?'skyblue':'')}">津贴优惠</button>
+				<button class="full button" @click="setSelect3" type="default" size="mini" :style="{'background-color':(isSelect3?'skyblue':'')}">满减优惠</button>
+				<button class="return button" @click="setSelect4" type="default" size="mini" :style="{'background-color':(isSelect4?'skyblue':'')}">下单返红包</button>
 			</view>
 		</view>
 		<!-- 商家列表  -->
@@ -89,16 +85,16 @@
 		},
 		methods: {
 			async getGonggeData() {
-				var 
+				var {
 					message
-				 = await getGongge();
+				} = await getGongge();
 				console.log(message);
 				this.gongGeData = message;
 			},
 			async getshoplistData() {
-				var 
+				var {
 					message
-				 = await getShopList();
+				} = await getShopList();
 				this.getShopData = message;
 			},
 			setSelect1(){
@@ -236,8 +232,5 @@
 	.home-container .merchant-list .money {
 		display: flex;
 		margin: 10rpx auto;
-	}
-	.select { 
-		background-color:skyblue;
 	}
 </style>

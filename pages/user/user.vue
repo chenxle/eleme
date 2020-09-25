@@ -2,21 +2,37 @@
 	<view class="user-container">
 		<!-- 信息及头像 -->
 		<view class="user-info">
-			<view class="noLogin">
-				<view class="login" v-if="!getIsLogin">
-					<view class="text">立刻登录</view>
-					<view class="iconfont icon-greater-than-solid" />
-				</view>
-				<view class="login" v-else>
-					<view class="text">message</view>
-				</view>
-				<view class="info" v-if="!getIsLogin">饿不饿都上饿了么</view>
-				<view class="info" v-else>message</view>
-			</view>
-			<view class="img">
-				<image src="/static/images/default_user_photo.png" v-if="!getIsLogin"></image>
-				<image src="/static/images/user_photo.webp" v-else></image>
-			</view>
+			<!-- 未登陆页面 -->
+			<block v-if="!getIsLogin">
+				<navigator url="/pages/login/login">
+					<view class="noLogin">
+						<view class="login">
+							<view class="text">立刻登录</view>
+							<view class="iconfont icon-greater-than-solid" />
+						</view>
+						<view class="info">饿不饿都上饿了么</view>
+					</view>
+					<view class="img">
+						<image src="/static/images/default_user_photo.png"></image>
+					</view>
+				</navigator>
+			</block>
+			<!-- 已登录页面 -->
+			<block v-if="getIsLogin">
+				<navigator url="">
+					<view class="noLogin">
+						<view class="login">
+							<view class="text">{{user.userId}}</view>
+						</view>
+						<view class="info">再忙，也要记得吃饭呦~</view>
+					</view>
+					<view class="img">
+						<image src="/static/images/user_photo.webp"></image>
+					</view>
+				</navigator>
+			</block>
+			
+			
 		</view>
 		<!-- 红包、余额 -->
 		<view class="money">
@@ -24,7 +40,7 @@
 				<view class="text">
 					<view :class="getIsLogin==false?'asdf':'' " class="button">红包</view>
 					<text v-if="!getIsLogin">登录后查看</text>
-					<text v-else>message个未使用</text>
+					<text v-else>{{user.redPacketNumber}}个未使用</text>
 				</view>
 				<view class="img">
 					<image src="/static/images/red-packet.png"></image>
@@ -34,7 +50,7 @@
 				<view class="text">
 					<view>余额</view>
 					<text v-if="!getIsLogin">登录后查看</text>
-					<text v-else>￥message</text>
+					<text v-else>￥{{user.balance}}</text>
 				</view>
 				<view class="img">
 					<image src="/static/images/balance.png"></image>
@@ -42,20 +58,18 @@
 			</view>
 		</view>
 		<!-- 点餐提醒 -->
-		<view class="warn" v-if="!getIsLogin">
+		<view class="warn" v-if="getIsLogin">
 			<image class="img" src="/static/images/naozhong.png"></image>
 			<view class="middle">
 				<text class="title">点餐提醒</text>
 				<text class="num">已有<text>{{49254}}</text>人提醒自己按时吃饭</text>
 			</view>
-			<navigator url="../orderRemind/orderRemind">
-				<button class="button" size="mini" style="background-color: rgb(0, 166, 255);margin-right: 20rpx;">立即开启</button>
-			</navigator>
+			<button class="button" size="mini" style="background-color: rgb(0, 166, 255);margin-right: 20rpx;">立即开启</button>
 		</view>
 		<!-- 其它功能 -->
 		<view class="divisions">
 			<!-- 我的地址 -->
-			<navigator url="../shippingSite/shippingSite" class="division">
+			<navigator url="" class="division">
 				<view class="item">
 					<view>
 						<image src="/static/images/site.png" mode=""></image>
@@ -126,17 +140,24 @@
 	export default {
 		data() {
 			return {
-				version: '1.1.9'
+				version:'1.1.9',
+				user:{}
 			}
 		},
 		methods: {
-
+			getUserInfo(){
+				var userInfo = this.$store.getters.getUserInfo;
+				this.user = userInfo;
+				console.log(userInfo)
+			}
 		},
-		computed: {
-			getIsLogin() {
-				console.log(this.$store.getters.getIsLogin, "asdfasdfasdkfjiewnf")
+		computed:{
+			getIsLogin(){
 				return this.$store.getters.getIsLogin;
 			}
+		},
+		created() {
+			this.getUserInfo();
 		}
 	}
 </script>
@@ -149,6 +170,11 @@
 			display: flex;
 			justify-content: space-between;
 			margin: 20rpx 0;
+			navigator {
+				flex: 1;
+				display: flex;
+				justify-content: space-between;
+			}
 
 			.noLogin {
 				margin-left: 6rpx;
@@ -197,7 +223,6 @@
 
 				.text {
 					margin: 26rpx 0;
-
 					view {
 						color: #333;
 						font-weight: 500;
@@ -211,7 +236,6 @@
 
 				.img {
 					margin-top: 24rpx;
-
 					image {
 						width: 50rpx;
 						height: 50rpx;
@@ -219,46 +243,37 @@
 				}
 			}
 		}
-
-		/* 闹钟 */
-		.warn .img {
-			width: 100rpx;
-			height: 100rpx;
-		}
-
-
-		.warn {
-			display: flex;
-			justify-content: space-around;
-			border: 2rpx solid rgb(225, 229, 238);
-			align-items: center;
-			border-radius: 16rpx;
-			margin: 20rpx 0;
-			padding: 26rpx 0;
-		}
-
-
-		.warn .middle {
-			display: flex;
-			flex-direction: column;
-		}
-
-
-		.warn .middle .title {
-			color: rgb(0, 87, 134)
-		}
-
-
-		.warn .middle .num {
-			font-size: 24rpx;
-			color: rgb(102, 154, 182);
-
-			text {
-				color: skyblue;
-				margin: 0 4rpx;
-				font-weight: 900;
+		
+			/* 闹钟 */
+			.warn .img {
+				width: 100rpx;
+				height: 100rpx;
+			}
+			.warn {
+				display: flex;
+				justify-content: space-around;
+				border: 2rpx solid rgb(225, 229, 238);
+				align-items: center;
+				border-radius: 16rpx;
+				margin: 20rpx 0;
+				padding: 26rpx 0;
+			}
+			.warn .middle {
+				display: flex;
+				flex-direction: column;
+			}
+			.warn .middle .title {
+				color: rgb(0, 87, 134)
+			}
+			.warn .middle .num {
+				font-size: 24rpx;
+				color: rgb(102, 154, 182);
+				text {
+					color: skyblue;
+					margin: 0 4rpx;
+					font-weight: 900;
+				}
 			}
-		}
 
 
 		.divisions {
@@ -293,7 +308,6 @@
 				}
 			}
 		}
-
 		.versions {
 			display: flex;
 			margin: 20rpx 0;
