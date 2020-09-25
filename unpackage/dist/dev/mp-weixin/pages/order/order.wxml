@@ -1,1 +1,0 @@
-<view class="order-container data-v-127632e4"><block wx:if="{{!getIsLogin}}"><view class="page data-v-127632e4"><view class="img data-v-127632e4"><image src="/static/images/noLogin.png" mode class="data-v-127632e4"></image></view><view class="text data-v-127632e4">登录后查看外卖订单</view><button type="default" size="mini" class="data-v-127632e4">立即登录</button></view></block></view>
