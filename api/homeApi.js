@@ -22,3 +22,10 @@ export function getHotSearch(){
 }
 
 // classId 商家列表
+
+// 地址列表
+export function getAddress(){
+	return request({
+		url:`http://localhost:3000/address`
+	})
+}
