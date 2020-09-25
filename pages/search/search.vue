@@ -30,7 +30,7 @@
 		},
 		methods:{
 			async getHotSearchData(){
-				var {message} = await getHotSearch();
+				var message = await getHotSearch();
 				this.getHotSearchList = message;
 			}
 		},

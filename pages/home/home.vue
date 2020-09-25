@@ -18,12 +18,14 @@
 		<view class="gongge">
 			<uni-grid :column="5" :showBorder="false">
 				<uni-grid-item v-for="item in gongGeData" :key="item.id">
-					<view>
-						<image class="img" :src="item.img"></image>
-					</view>
-					<view class="title">
-						<text class="text">{{item.title}}</text>
-					</view>
+					<navigator :url="'/pages/shoplist/shoplist?id='+item.id">
+						<view>
+							<image class="img" :src="item.img"></image>
+						</view>
+						<view class="title">
+							<text class="text">{{item.title}}</text>
+						</view>
+					</navigator>
 				</uni-grid-item>
 			</uni-grid>
 		</view>
@@ -34,7 +36,9 @@
 				<text class="title">点餐提醒</text>
 				<text class="num">已有49254人提醒自己按时吃饭</text>
 			</view>
-			<button class="button" size="mini" style="background-color: rgb(0, 166, 255)">立即开启</button>
+			<navigator url="../orderRemind/orderRemind">
+				<button class="button" size="mini" style="background-color: rgb(0, 166, 255)">立即开启</button>
+			</navigator>
 		</view>
 		<!-- 赏金 -->
 		<view class="red-money">
@@ -85,16 +89,16 @@
 		},
 		methods: {
 			async getGonggeData() {
-				var {
+				var 
 					message
-				} = await getGongge();
+				 = await getGongge();
 				console.log(message);
 				this.gongGeData = message;
 			},
 			async getshoplistData() {
-				var {
+				var 
 					message
-				} = await getShopList();
+				 = await getShopList();
 				this.getShopData = message;
 			},
 			setSelect1(){

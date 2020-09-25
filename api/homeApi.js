@@ -20,3 +20,5 @@ export function getHotSearch(){
 		url:`http://localhost:3000/hotSearch`
 	})
 }
+
+// classId 商家列表

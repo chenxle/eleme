@@ -49,6 +49,18 @@
      },{
 		 "path":"pages/index/index"
 	 }
+        ,{
+            "path" : "pages/shoplist/shoplist",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/orderRemind/orderRemind",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/shippingSite/shippingSite",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
