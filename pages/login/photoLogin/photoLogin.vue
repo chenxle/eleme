@@ -71,9 +71,18 @@ import { getUserByPhotoAndPassword } from '../../../api/loginApi.js';
 					key:"userInfo",
 					data:message[0]
 				})
-				uni.navigateBack({
-					delta:2
-				});
+				// 只返回不刷新数据
+				// uni.navigateBack({
+				// 	delta:2
+				// });
+				uni.switchTab({
+					url: '/pages/user/user',
+					success(){
+						let page = getCurrentPages().pop(); //跳转页面成功之后
+						if (!page) return;
+						page.onLoad(); //如果页面存在，则重新刷新页面
+					}
+				})
 			}
 		},
 	}

@@ -13,6 +13,7 @@ const store = new Vuex.Store({
 	getters:{
 		//获取是否登录
 		getIsLogin(state){
+			console.log('您获取了登录状态')
 			return state.isLogin;
 		},
 		// 获取用户信息

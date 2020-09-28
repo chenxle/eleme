@@ -4,7 +4,7 @@
 		<view class="user-info">
 			<!-- 未登陆页面 -->
 			<block v-if="!getIsLogin">
-				<navigator url="/pages/login/login">
+				<view @click="toLoginPage" class="dl">
 					<view class="noLogin">
 						<view class="login">
 							<view class="text">立刻登录</view>
@@ -15,11 +15,11 @@
 					<view class="img">
 						<image src="/static/images/default_user_photo.png"></image>
 					</view>
-				</navigator>
+				</view>
 			</block>
 			<!-- 已登录页面 -->
 			<block v-if="getIsLogin">
-				<navigator url="">
+				<view @click="outlogin" class="dl">
 					<view class="noLogin">
 						<view class="login">
 							<view class="text">{{user.userId}}</view>
@@ -29,14 +29,14 @@
 					<view class="img">
 						<image src="/static/images/user_photo.webp"></image>
 					</view>
-				</navigator>
+				</view>
 			</block>
 			
 			
 		</view>
 		<!-- 红包、余额 -->
 		<view class="money">
-			<view class="item">
+			<view class="item" @click="toPage1">
 				<view class="text">
 					<view :class="getIsLogin==false?'asdf':'' " class="button">红包</view>
 					<text v-if="!getIsLogin">登录后查看</text>
@@ -46,7 +46,7 @@
 					<image src="/static/images/red-packet.png"></image>
 				</view>
 			</view>
-			<view class="item">
+			<view class="item" @click="toPage2">
 				<view class="text">
 					<view>余额</view>
 					<text v-if="!getIsLogin">登录后查看</text>
@@ -64,7 +64,11 @@
 				<text class="title">点餐提醒</text>
 				<text class="num">已有<text>{{49254}}</text>人提醒自己按时吃饭</text>
 			</view>
-			<button class="button" size="mini" style="background-color: rgb(0, 166, 255);margin-right: 20rpx;">立即开启</button>
+			<navigator url="../orderRemind/orderRemind">
+				<button class="button" size="mini" style="background-color: rgb(0, 166, 255)">
+						立即开启
+				</button>
+			</navigator>
 		</view>
 		<!-- 其它功能 -->
 		<view class="divisions">
@@ -148,7 +152,49 @@
 			getUserInfo(){
 				var userInfo = this.$store.getters.getUserInfo;
 				this.user = userInfo;
-				console.log(userInfo)
+			},
+			outlogin(){
+				var _this = this;
+				uni.showModal({
+				    content: '是否退出登录',
+				    success: function (res) {
+				        if (res.confirm) {
+							_this.$store.commit('setIsLogin',false);
+							_this.$store.commit('setUserInfo',{});
+							uni.clearStorageSync();
+							uni.switchTab({
+								url: '/pages/home/home'
+							})
+				        }
+				    }
+				});
+			},
+			toLoginPage(){
+				//#ifdef H5
+				console.log('只在h5有')
+				uni.navigateTo({
+					url: '/pages/login/photoLogin/photoLogin',
+				});
+				//#endif
+				//#ifdef MP-WEIXIN
+				console.log('只在微信有')
+				uni.navigateTo({
+					url: '/pages/login/login',
+				});
+				//#endif
+			},
+			toPage1(){
+				if(!this.getIsLogin){
+					this.toLoginPage();
+				}
+			},toPage2(){
+				if(this.getIsLogin){
+					uni.navigateTo({
+						url: '/pages/balance/balance',
+					});
+				}else {
+					this.toLoginPage();
+				}
 			}
 		},
 		computed:{
@@ -156,7 +202,7 @@
 				return this.$store.getters.getIsLogin;
 			}
 		},
-		created() {
+		onLoad() {
 			this.getUserInfo();
 		}
 	}
@@ -171,6 +217,11 @@
 			justify-content: space-between;
 			margin: 20rpx 0;
 			navigator {
+				flex: 1;
+				display: flex;
+				justify-content: space-between;
+			}
+			.dl {
 				flex: 1;
 				display: flex;
 				justify-content: space-between;

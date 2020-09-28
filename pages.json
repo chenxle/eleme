@@ -67,6 +67,10 @@
 		{
 			"path":"pages/login/photoLogin/photoLogin"
 		}
+        ,{
+            "path" : "pages/balance/balance",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
