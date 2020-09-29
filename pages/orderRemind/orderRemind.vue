@@ -1,6 +1,6 @@
 <template>
 	<view class="remind">
-		<long-date 
+	<!-- 	<long-date 
 		    type="between" 
 		    getDayNum="10" 
 		    :openStatus="true" 
@@ -8,7 +8,7 @@
 		    endTime="2019-06-01" 
 		    chooesMaxDay="8"
 		    @select="onSelectTime">
-		</long-date>
+		</long-date> -->
 		<view class="reptition">
 			<view class="reptition-cycle">重复周期</view>
 			<view class="reptition-button">
