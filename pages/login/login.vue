@@ -5,7 +5,7 @@
 			<image src="/static/images/home-server.png" mode=""></image>
 		</view>
 		<view class="title">饿了么外卖</view>
-		<button type="default" style="background-color: #007AFF;" @click="login" open-type="getUserInfo">微信账号一键登录</button>
+		<button type="default" style="background-color: #007AFF;" open-type="getUserInfo" @getuserinfo="login">微信账号一键登录</button>
 		<view class="photo-login">
 			<navigator url="/pages/login/photoLogin/photoLogin">
 				<text>使用手机号码登录</text>
@@ -39,17 +39,26 @@ import { getUserByNickname } from '../../api/loginApi.js';
 						uni.getUserInfo({
 							provider: 'weixin',
 							success: async function (infoRes) {
+								console.log(infoRes.userInfo);
 								var userInfo = infoRes.userInfo;
 								var message = await getUserByNickname(userInfo.nickName);
 								
 								// 登录成功，修改vuex中的数据
 								_this.$store.commit('setUserInfo',message[0]);
 								_this.$store.commit('setIsLogin',true);
-								uni.showToast({
-									title:"登录成功",
-									icon:'none'
+								// 只返回不刷新数据
+								// uni.navigateBack();
+								uni.switchTab({
+									url: '/pages/user/user',
+									success(){
+										let page = getCurrentPages().pop(); //跳转页面成功之后
+										if (!page) return;
+										page.onLoad(); //如果页面存在，则重新刷新页面
+									}
 								})
-								uni.navigateBack();
+							},
+							fail() {
+								console.log("失败");
 							}
 						})
 					},
@@ -60,7 +69,7 @@ import { getUserByNickname } from '../../api/loginApi.js';
 						})
 					}
 				})
-			}
+			},
 		}
 	}
 </script>

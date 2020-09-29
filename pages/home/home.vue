@@ -18,12 +18,14 @@
 		<view class="gongge" style="margin: 20rpx 0;">
 			<uni-grid :column="5" :showBorder="false">
 				<uni-grid-item v-for="item in gongGeData" :key="item.id">
-					<view style="width: 140rpx;height: 100rpx;">
-						<image class="img" :src="item.img"></image>
-					</view>
-					<view class="title">
-						<text class="text">{{item.title}}</text>
-					</view>
+					<navigator :url="'/pages/shoplist/shoplist?id='+item.id">
+						<view style="width: 140rpx;height: 100rpx;">
+							<image class="img" :src="item.img"></image>
+						</view>
+						<view class="title">
+							<text class="text">{{item.title}}</text>
+						</view>
+					</navigator>
 				</uni-grid-item>
 			</uni-grid>
 		</view>
@@ -34,14 +36,18 @@
 				<text class="title">点餐提醒</text>
 				<text class="num">已有49254人提醒自己按时吃饭</text>
 			</view>
-			<button class="button" size="mini" style="background-color: rgb(0, 166, 255)">立即开启</button>
+			<navigator url="../orderRemind/orderRemind">
+				<button class="button" size="mini" style="background-color: rgb(0, 166, 255)">
+						立即开启
+				</button>
+			</navigator>
 		</view>
 		<!-- 赏金 -->
 		<view class="red-money">
 			<image class="img" src="../../static/images/money.png"></image>
 		</view>
 		<!-- 推荐 -->
-		<view class="recommend">
+		<view class="recommend questionbag">
 			<view class="title">推荐商家</view>
 			<view class="screen">
 				<button class="first button" @click="setSelect1" type="default" size="mini" :style="{'background-color':(isSelect1?'skyblue':'')}">首单立减</button>
@@ -57,7 +63,7 @@
 			</view>
 			<view class="footer">
 				<view class="title">{{item.title}}</view>
-				<view class="grade">{{item.grade}}</view>
+				<view class="grade">{{item.grade}} 月售{{item.month_sales}}单</view>
 				<view class="money">
 					<view class="price">起送￥{{item.price}}</view>
 					<view class="delivery">配送费￥{{item.delivery}}</view>
@@ -88,7 +94,6 @@
 				var 
 					message
 				 = await getGongge();
-				console.log(message);
 				this.gongGeData = message;
 			},
 			async getshoplistData() {
@@ -110,9 +115,14 @@
 				this.isSelect4 = !this.isSelect4;
 			}
 		},
-		created() {
+		onLoad() {
 			this.getGonggeData();
 			this.getshoplistData();
+		},
+		computed:{
+			getIsLogin(){
+				return this.$store.getters.getIsLogin;
+			}
 		}
 	}
 </script>
@@ -233,4 +243,11 @@
 		display: flex;
 		margin: 10rpx auto;
 	}
+	.questionbag{
+		  position: -webkit-sticky;
+		  position: sticky;
+		  top: var(--window-top);
+		  background-color: #fff;
+		  z-index: 99;
+	  }
 </style>
