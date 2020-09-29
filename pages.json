@@ -65,14 +65,10 @@
 			"path":"pages/login/login"
 		},
 		{
-			"path":"pages/login/photoLogin/photoLogin"
+			"path":"pages/login/photoLogin/photoLogin"	
 		}
         ,{
-<<<<<<< HEAD
-            "path" : "pages/addSite/addSite",
-=======
             "path" : "pages/balance/balance",
->>>>>>> 8ac06b6bbb6913c972812a6d81bf6c93ee9cf19e
             "style" : {}
         }
     ],
