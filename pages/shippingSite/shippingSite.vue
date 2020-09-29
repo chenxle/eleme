@@ -8,7 +8,7 @@
 					<view class="phone">{{item.phone}}</view>
 				</view>
 				<view class="footer">
-					<view class="remark">{{item.remark}}</view>
+					<view class="remark" :class="getBgc(item.remark)">{{item.remark}}</view>
 					<view class="definite">{{item.definite}}</view>
 				</view>
 			</view>
@@ -16,9 +16,11 @@
 				<image class="img" src="../../static/images/edit.png"></image>
 			</view>
 		</view>
-		<view class="add">
-			<image class="img" src="../../static/images/add.png" mode=""></image>新增地址
-		</view>
+		<navigator url="../addSite/addSite">
+			<view class="add">
+				<image class="img" src="../../static/images/add.png"></image>新增地址
+			</view>
+		</navigator>
 	</view>
 </template>
 
@@ -34,6 +36,18 @@
 			async getAddressList(){
 				var message = await getAddress();
 				this.getAddressData = message;
+			},
+			getBgc(remark){
+				switch (remark){
+					case '家':
+						return "bgc-red";
+					case '公司':
+						return "bgc-blur";
+					case '学校':
+						return "bgc-green";
+					default:
+						return '';
+				}
 			}
 		},
 		onLoad() {
@@ -74,9 +88,17 @@
 
 				.footer {
 					display: flex;
-
+					.bgc-red {
+						background-color: rgb(255, 96, 32);
+					}
+					.bgc-blur{
+						background-color: rgb(0, 151, 255);
+					}
+					.bgc-green{
+						background-color: rgb(93, 207, 123);
+					}
+					
 					.remark {
-						background: rgb(255, 96, 32);
 						color: white;
 					}
 

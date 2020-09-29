@@ -67,6 +67,10 @@
 		{
 			"path":"pages/login/photoLogin/photoLogin"
 		}
+        ,{
+            "path" : "pages/addSite/addSite",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",
