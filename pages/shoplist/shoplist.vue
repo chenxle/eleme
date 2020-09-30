@@ -64,18 +64,22 @@
 		</view>
 		
 		<!-- 商家列表  -->
-		<view class="merchant-list" v-for="(item,index) in getShopData" :key="index">
-			<view class="image">
-				<image class="img" :src="item.img"></image>
-			</view>
-			<view class="footer">
-				<view class="title">{{item.title}}</view>
-				<view class="grade">{{item.grade}} 月售{{item.month_sales}}单</view>
-				<view class="money">
-					<view class="price">起送￥{{item.price}}</view>
-					<view class="delivery">配送费￥{{item.delivery}}</view>
-				</view>
-			</view>
+		<view class="merchant-list">
+			<block v-for="(item,index) in getShopData" :key="index">
+				<navigator class="merchant" :url="'/pages/goods/goods?id='+item.id">
+					<view class="image">
+						<image class="img" :src="item.img"></image>
+					</view>
+					<view class="footer">
+						<view class="title">{{item.title}}</view>
+						<view class="grade">{{item.grade}} 月售{{item.month_sales}}单</view>
+						<view class="money">
+							<view class="price">起送￥{{item.price}}</view>
+							<view class="delivery">配送费￥{{item.delivery}}</view>
+						</view>
+					</view>
+				</navigator>
+			</block>
 		</view>
 		<!-- 加载更多 -->
 		<uni-load-more :status="'loading'" v-if="isShow"></uni-load-more>
@@ -329,28 +333,32 @@ var bool = false;
 		// 商家列表
 		.merchant-list {
 			display: flex;
-			justify-content: flex-start;
-			margin: 26rpx 0;
-			border-bottom: 2rpx solid #eee;
-			.image .img {
-				width: 130rpx;
-				height: 130rpx;
-			}
-			.footer{
-				font-size: 24rpx;
-				color: rgb(128, 128, 128);
-				margin: auto 20rpx;
-				.title {
-					font-weight: bold;
-					font-size: 40rpx;
-					color: black;
+			flex-wrap: wrap;
+			.merchant {
+				width: 100%;
+				display: flex;
+				padding: 26rpx 0;
+				border-bottom: 2rpx solid #eee;
+				.image .img {
+					width: 130rpx;
+					height: 130rpx;
 				}
-				.money {
-					display: flex;
-					margin: 10rpx auto;
-				}
-				.grade {
-					margin: 10rpx auto;
+				.footer{
+					font-size: 24rpx;
+					color: rgb(128, 128, 128);
+					margin: auto 20rpx;
+					.title {
+						font-weight: bold;
+						font-size: 40rpx;
+						color: black;
+					}
+					.money {
+						display: flex;
+						margin: 10rpx auto;
+					}
+					.grade {
+						margin: 10rpx auto;
+					}
 				}
 			}
 		}

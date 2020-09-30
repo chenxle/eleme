@@ -13,3 +13,10 @@ export function getHighSalesshoplist(classId,page,limit=10){
 	    url:`http://localhost:3000/shoplist?classId=${classId}&_page=${page}&_limit=${limit}&_sort=grade&_order=desc`
 	})
 }
+
+// 获取对应商家的信息
+export function getShopById(id){
+	return request({
+		url:`http://localhost:3000/shoplist/${id}`
+	})
+}
