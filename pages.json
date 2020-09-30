@@ -4,6 +4,9 @@
 =======
 	"pages": [
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> remotes/origin/master
+=======
 >>>>>>> remotes/origin/master
 =======
 >>>>>>> remotes/origin/master
@@ -17,6 +20,7 @@
 			"path": "pages/order/order",
 			"style": {}
 		},{
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 			"path" : "pages/search/search",
@@ -37,6 +41,8 @@
 			"style" : {}
 		},
 =======
+=======
+>>>>>>> remotes/origin/master
 =======
 >>>>>>> remotes/origin/master
 				"path" : "pages/search/search",
@@ -63,6 +69,7 @@
 		{
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"path":"pages/login/photoLogin/photoLogin"
 		}
 		,{
@@ -72,6 +79,8 @@
 			"path":"pages/goods/goods"
 		}
 =======
+=======
+>>>>>>> remotes/origin/master
 =======
 >>>>>>> remotes/origin/master
 			"path":"pages/login/photoLogin/photoLogin"	
