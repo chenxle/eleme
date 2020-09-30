@@ -18,7 +18,7 @@
 		</view>
 		<navigator url="../addSite/addSite">
 			<view class="add">
-				<image class="img" src="../../static/images/add.png"></image>新增地址
+				<image class="img" src="../../static/images/add.png"></image>新增地址aa
 			</view>
 		</navigator>
 	</view>
