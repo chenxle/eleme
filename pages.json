@@ -3,6 +3,9 @@
 	"pages": [ 
 =======
 	"pages": [
+<<<<<<< HEAD
+>>>>>>> remotes/origin/master
+=======
 >>>>>>> remotes/origin/master
 		{
 			"path": "pages/home/home",
@@ -14,6 +17,7 @@
 			"path": "pages/order/order",
 			"style": {}
 		},{
+<<<<<<< HEAD
 <<<<<<< HEAD
 			"path" : "pages/search/search",
 			"style" : {}
@@ -33,6 +37,8 @@
 			"style" : {}
 		},
 =======
+=======
+>>>>>>> remotes/origin/master
 				"path" : "pages/search/search",
 				"style" : {}
 		 },{
@@ -56,6 +62,7 @@
 		},
 		{
 <<<<<<< HEAD
+<<<<<<< HEAD
 			"path":"pages/login/photoLogin/photoLogin"
 		}
 		,{
@@ -65,6 +72,8 @@
 			"path":"pages/goods/goods"
 		}
 =======
+=======
+>>>>>>> remotes/origin/master
 			"path":"pages/login/photoLogin/photoLogin"	
 		},
 		{
