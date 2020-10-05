@@ -1,15 +1,5 @@
 {
-<<<<<<< HEAD
 	"pages": [ 
-=======
-	"pages": [
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> remotes/origin/master
-=======
->>>>>>> remotes/origin/master
-=======
->>>>>>> remotes/origin/master
 		{
 			"path": "pages/home/home",
 			"style": {}
@@ -20,9 +10,6 @@
 			"path": "pages/order/order",
 			"style": {}
 		},{
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 			"path" : "pages/search/search",
 			"style" : {}
 		 },{
@@ -40,36 +27,10 @@
 			"path" : "pages/shippingSite/shippingSite",
 			"style" : {}
 		},
-=======
-=======
->>>>>>> remotes/origin/master
-=======
->>>>>>> remotes/origin/master
-				"path" : "pages/search/search",
-				"style" : {}
-		 },{
-			 "path":"pages/index/index"
-		 }
-        ,{
-            "path" : "pages/shoplist/shoplist",
-            "style" : {}
-        }
-        ,{
-            "path" : "pages/orderRemind/orderRemind",
-            "style" : {}
-        }
-        ,{
-            "path" : "pages/shippingSite/shippingSite",
-            "style" : {}
-        },
->>>>>>> remotes/origin/master
 		{
 			"path":"pages/login/login"
 		},
 		{
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 			"path":"pages/login/photoLogin/photoLogin"
 		}
 		,{
@@ -77,19 +38,9 @@
 			"style" : {}
 		},{
 			"path":"pages/goods/goods"
+		},{
+			"path":"pages/addSite/addSite"
 		}
-=======
-=======
->>>>>>> remotes/origin/master
-=======
->>>>>>> remotes/origin/master
-			"path":"pages/login/photoLogin/photoLogin"	
-		},
-		{
-			"path" : "pages/balance/balance",
-            "style" : {}
-        }
->>>>>>> remotes/origin/master
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "white",

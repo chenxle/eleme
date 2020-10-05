@@ -1,0 +1,293 @@
+{
+    "gongge":[
+        {"id":1,"title":"美食","img":"https://cube.elemecdn.com/7/d8/a867c870b22bc74c87c348b75528djpeg.jpeg?x-oss-process=image/format,webp/resize,w_90,h_90,m_fixed"},
+        {"id":2,"title":"晚餐","img":"https://cube.elemecdn.com/e/89/185f7259ebda19e16123884a60ef2jpeg.jpeg?x-oss-process=image/format,webp/resize,w_90,h_90,m_fixed"},
+        {"id":3,"title":"短路代购","img":"https://cube.elemecdn.com/e/58/bceb19258e3264e64fb856722c3c1jpeg.jpeg?x-oss-process=image/format,webp/resize,w_90,h_90,m_fixed"},
+        {"id":4,"title":"汉堡披萨","img":"https://cube.elemecdn.com/b/7f/432619fb21a40b05cd25d11eca02djpeg.jpeg?x-oss-process=image/format,webp/resize,w_90,h_90,m_fixed"},
+        {"id":5,"title":"甜品饮品","img":"https://cube.elemecdn.com/2/35/696aa5cf9820adada9b11a3d14bf5jpeg.jpeg?x-oss-process=image/format,webp/resize,w_90,h_90,m_fixed"},
+        {"id":6,"title":"速食简餐","img":"https://cube.elemecdn.com/0/1a/314b6da88ab6c7ae9828f91652d40jpeg.jpeg?x-oss-process=image/format,webp/resize,w_90,h_90,m_fixed"},
+        {"id":7,"title":"地方小吃","img":"https://cube.elemecdn.com/7/d6/6f2631288a44ec177204e05cbcb93jpeg.jpeg?x-oss-process=image/format,webp/resize,w_90,h_90,m_fixed"},
+        {"id":8,"title":"米粉面馆","img":"https://cube.elemecdn.com/e/89/185f7259ebda19e16123884a60ef2jpeg.jpeg?x-oss-process=image/format,webp/resize,w_90,h_90,m_fixed"},
+        {"id":9,"title":"包子粥店","img":"https://cube.elemecdn.com/5/1a/dc885d2ce022d2ee60495acafb795jpeg.jpeg?x-oss-process=image/format,webp/resize,w_90,h_90,m_fixed"},
+        {"id":10,"title":"炸鸡炸串","img":"https://cube.elemecdn.com/a/78/0fb469b2da210827ec16896e00420jpeg.jpeg?x-oss-process=image/format,webp/resize,w_90,h_90,m_fixed"}
+    ],
+    "shoplist":[
+        {"id":1,"shopId":1,"classId":1,"title":"一品香锅","img":"https://cube.elemecdn.com/0/02/5195871457d4009d13bd6e6cf6660jpeg.jpeg?x-oss-process=image/format,webp/resize,w_150","grade":4.5,"month_sales":1193,"price":20,"delivery":2.5,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+        {"id":2,"shopId":2,"classId":1,"title":"麦当劳麦乐送","img":"https://cube.elemecdn.com/F/BE/4B499D95549359D0089AA08428460png.png?x-oss-process=image/format,webp/resize,w_150","grade":4.9,"month_sales":75,"price":20,"delivery":9,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+        {"id":3,"shopId":3,"classId":2,"title":"串串吧烧烤","img":"https://cube.elemecdn.com/4/6f/57c5ab77801365e60346771b85024jpeg.jpeg?x-oss-process=image/format,webp/resize,w_150","grade":4.3,"month_sales":1553,"price":20,"delivery":2,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+        {"id":4,"shopId":4,"classId":2,"title":"叫了只炸鸡","img":"https://cube.elemecdn.com/7/1E/443B040944706BC482262DEF7C055jpeg.jpeg?x-oss-process=image/format,webp/resize,w_150","grade":4.2,"month_sales":2751,"price":20,"delivery":0,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+        {"id":5,"shopId":5,"classId":4,"title":"嘻哈雞车·烤鸡汉堡(大德店)","img":"https://cube.elemecdn.com/0/13/0fc788ea1811691e9f86baca7169djpeg.jpeg?x-oss-process=image/format,webp/resize,w_150","grade":4.3,"month_sales":4450,"price":20,"delivery":0.5,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+        {"id":6,"shopId":6,"classId":4,"title":"汉堡王","img":"https://cube.elemecdn.com/6/67/7DBFE6173423AB53631D04E3FD375jpeg.jpeg?x-oss-process=image/format,webp/resize,w_150","grade":4.5,"month_sales":4450,"price":20,"delivery":8,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+        {"id":7,"shopId":7,"classId":5,"title":"一点点","img":"https://cube.elemecdn.com/B/E8/A62BEBB484E969A9EBCBD3609CFBBjpeg.jpeg?x-oss-process=image/format,webp/resize,w_150","grade":5,"month_sales":615,"price":20,"delivery":7.8,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+        {"id":8,"shopId":8,"classId":5,"title":"益禾堂","img":"https://cube.elemecdn.com/6/dc/3e67784f87c6e2c71ecec47753555jpeg.jpeg?x-oss-process=image/format,webp/resize,w_150","grade":4.6,"month_sales":789,"price":20,"delivery":3.5,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+        {"id":9,"shopId":9,"classId":6,"title":"凉皮先生","img":"https://cube.elemecdn.com/7/3e/f1e54d57f28f90c17b2fb567c3f43png.png?x-oss-process=image/format,webp/resize,w_150","grade":4.6,"month_sales":515,"price":20,"delivery":2.5,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+        {"id":10,"shopId":10,"classId":6,"title":"宫崎寿司","img":"https://cube.elemecdn.com/6/9e/d941785aeb8b47d473251366cadc4jpeg.jpeg?x-oss-process=image/format,webp/resize,w_150","grade":4.6,"month_sales":666,"price":20,"delivery":3.5,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+        {"id":11,"shopId":3,"classId":7,"title":"串串吧烧烤","img":"https://cube.elemecdn.com/4/6f/57c5ab77801365e60346771b85024jpeg.jpeg?x-oss-process=image/format,webp/resize,w_150","grade":4.3,"month_sales":1551,"price":20,"delivery":2,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+        {"id":12,"shopId":4,"classId":7,"title":"叫了只炸鸡","img":"https://cube.elemecdn.com/7/1E/443B040944706BC482262DEF7C055jpeg.jpeg?x-oss-process=image/format,webp/resize,w_150","grade":4.2,"month_sales":2751,"price":20,"delivery":0,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+        {"id":13,"shopId":11,"classId":8,"title":"沙县小吃","img":"https://cube.elemecdn.com/f/aa/83e5184086ef569a0e3e71d28834cjpeg.jpeg?x-oss-process=image/format,webp/resize,w_150","grade":4.2,"month_sales":799,"price":20,"delivery":3,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+        {"id":14,"shopId":12,"classId":8,"title":"冯记牛丸店","img":"https://cube.elemecdn.com/9/ad/ed8ab5c849a35b0416719264d0186png.png?x-oss-process=image/format,webp/resize,w_150","grade":4.5,"month_sales":78,"price":20,"delivery":3.3,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+        {"id":15,"shopId":11,"classId":9,"title":"沙县小吃","img":"https://cube.elemecdn.com/2/9C/DE9A5BF7A48FF9656C34C34296AB9jpeg.jpeg?x-oss-process=image/format,webp/resize,w_150","grade":4.6,"month_sales":3136,"price":20,"delivery":2.2,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+        {"id":16,"shopId":13,"classId":9,"title":"一品生煎","img":"https://cube.elemecdn.com/1/cc/63c9af5301ea7b4d5dc8e00301405jpeg.jpeg?x-oss-process=image/format,webp/resize,w_150","grade":4.2,"month_sales":2899,"price":20,"delivery":3.5,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+        {"id":17,"shopId":4,"classId":10,"title":"叫了只炸鸡","img":"https://cube.elemecdn.com/7/1E/443B040944706BC482262DEF7C055jpeg.jpeg?x-oss-process=image/format,webp/resize,w_150","grade":4.2,"month_sales":2751,"price":20,"delivery":0,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+        {"id":18,"shopId":3,"classId":10,"title":"串串吧烧烤","img":"https://cube.elemecdn.com/4/6f/57c5ab77801365e60346771b85024jpeg.jpeg?x-oss-process=image/format,webp/resize,w_150","grade":4.3,"month_sales":1551,"price":20,"delivery":2,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+		{"id":19,"shopId":14,"classId":1,"title":"YZ·茶档·港式风味(荔湾店)","img":"https://cube.elemecdn.com/9/87/ECC7FB73E4CA8B79695544B589F27jpeg.jpeg?x-oss-process=image/format,webp/resize,w_130,h_130,m_fixed","grade":4.6,"month_sales":122,"price":20,"delivery":0.5,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+		{"id":20,"shopId":0,"classId":1,"title":"彭德楷黄焖鸡米饭","img":"https://cube.elemecdn.com/0/a9/e59a5b300738dc63a01b7ef591be5jpeg.jpeg?x-oss-process=image/format,webp/resize,w_130,h_130,m_fixed","grade":4,"month_sales":3485,"price":15,"delivery":0,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+		{"id":21,"shopId":0,"classId":1,"title":"陈记麻辣香锅（西门口店）","img":"https://cube.elemecdn.com/1/05/80a38d12c9251d7791a08479d5817jpeg.jpeg?x-oss-process=image/format,webp/resize,w_130,h_130,m_fixed","grade":4.5,"month_sales":3838,"price":15,"delivery":0,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+		{"id":22,"shopId":0,"classId":1,"title":"永记沙湾甜品诗书路店","img":"https://cube.elemecdn.com/5/9f/cc4391aad3226e5f84cc972d5ef65jpeg.jpeg?x-oss-process=image/format,webp/resize,w_130,h_130,m_fixed","grade":4.5,"month_sales":128,"price":20,"delivery":3,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+		{"id":23,"shopId":0,"classId":1,"title":"摇滚扒饭(文昌南路店)","img":"https://cube.elemecdn.com/7/36/cae33dcdcd9854191c08ddf1e127cJPEG.JPEG","grade":4.8,"month_sales":76,"price":20,"delivery":3.5,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+		{"id":24,"shopId":0,"classId":1,"title":"海丰美食店","img":"https://cube.elemecdn.com/7/fa/ac99bda8920d525ecdb8334bd3f12jpeg.jpeg?x-oss-process=image/format,webp/resize,w_130,h_130,m_fixed","grade":4.4,"month_sales":545,"price":20,"delivery":0,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+		{"id":25,"shopId":0,"classId":1,"title":"兰州拉面","img":"https://cube.elemecdn.com/0/fa/6f02e53c7a6ff620b77a8246a98bbpng.png?x-oss-process=image/format,webp/resize,w_130,h_130,m_fixed","grade":4.3,"month_sales":93,"price":20,"delivery":1,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+		{"id":27,"shopId":0,"classId":1,"title":"智华美食·蒸饭煲仔饭·总店","img":"https://cube.elemecdn.com/a/15/9ac508f61a8e1ae1708168f19acf9JPEG.JPEG","grade":4.5,"month_sales":780,"price":10,"delivery":1,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+		{"id":28,"shopId":0,"classId":1,"title":"丰宁面家","img":"https://cube.elemecdn.com/9/5a/4cace857494fe9febfe6a5df9ca2fpng.png?x-oss-process=image/format,webp/resize,w_130,h_130,m_fixed","grade":4.3,"month_sales":160,"price":20,"delivery":0.8,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize,w_750","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"},
+		{"id":29,"shopId":0,"classId":1,"title":"老广食堂尚膳坊","img":"https://cube.elemecdn.com/b/50/0b184a3513bed4f0ee57889a291capng.png?x-oss-process=image/format,webp/resize,w_130,h_130,m_fixed","grade":4.7,"month_sales":408,"price":20,"delivery":0,"bgcImg":"https://cube.elemecdn.com/e/61/f9d33b3ea23c211aeb0b6835ff451png.png?x-oss-process=image/format,webp/resize, w_750v","notice":"用餐遇到任意问题，请致电掌柜 13805514123 我们力求扫平您的一切不愉快！小店经营不易，请不要随意给差评哦！喜爱我们的可以留下您的五星好评哦！我们感谢您的一路陪伴！"}
+    ],
+    "merchantsShop":[
+        {   "shopId":1,"id":1,"title":"鲜虾（4～5只/份）",
+            "img":"https://cube.elemecdn.com/2/f6/5a30f8ef97f1d31fa03af1e10abbbjpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：海虾","grade":"月售78单","assess":"好评率100%","price":8.8
+        },
+        {   "shopId":1,"id":2,"title":"莲藕（5-6片）",
+            "img":"https://cube.elemecdn.com/b/d2/629bd40c053006940786e92d2d835jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：土豆,藕","grade":"月售100单","assess":"好评率95%","price":3.8
+        },
+        {   "shopId":1,"id":3,"title":"海鲜菇（50克/份）",
+            "img":"https://cube.elemecdn.com/8/29/e13d60c51f00e90e88f84366663d5jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：蟹味菇","grade":"月售90单","assess":"好评率67%","price":3.8
+        },
+        {   "shopId":1,"id":4,"title":"牛肉(50克/份)",
+            "img":"https://cube.elemecdn.com/9/2a/c697dacbe278446cf6c5774fab311jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：牛肉","grade":"月售200单","assess":"好评率100%","price":8.8
+        },
+        {   "shopId":2,"id":5,"title":"麦辣鸡腿汉堡",
+            "img":"https://cube.elemecdn.com/a/7c/e1d3074a2c542860e179e6707cc77png.png?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"麦辣鸡腿汉堡1份主要原料：鸡肉,面包,风味酱,生菜条","grade":"月售69单","assess":"好评率100%","price":9.9
+        },
+        {   "shopId":2,"id":6,"title":"辣腿薯条四件套",
+            "img":"https://cube.elemecdn.com/1/8f/80695024141ffaf982a8513d5b0c2png.png?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"麦辣鸡腿汉堡1个+大薯条1份+麦辣鸡翅1对+中可乐1杯494ml","grade":"月售19单","assess":"好评率100%","price":38
+        },
+        {   "shopId":2,"id":7,"title":"板烧翅乐四件套",
+            "img":"https://cube.elemecdn.com/b/97/0dad099ba70c9a408c47214370a8fpng.png?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"板烧鸡腿堡1个+麦乐鸡5块+麦辣鸡翅1对+中可乐1杯494ml","grade":"月售13单","assess":"好评率0%","price":38
+        },
+        {   "shopId":3,"id":8,"title":"碳烤小牛肉20串",
+            "img":"https://cube.elemecdn.com/2/98/6fc6da308986f0aba439586c4640ejpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：羊肉","grade":"月售200单","assess":"好评率96%","price":18.8
+        },
+        {   "shopId":3,"id":9,"title":"半打牛肉半打金针菇两鸡腿",
+            "img":"https://cube.elemecdn.com/2/8b/59ae4a1bd158f8cc05bbeec3e4d26jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：鸡腿","grade":"月售54单","assess":"好评率100%","price":58.8
+        },
+        {   "shopId":3,"id":10,"title":"鸡爪(一串3只)",
+            "img":"https://cube.elemecdn.com/d/d4/4a30cd854b9c566124dabd952d51cjpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：鸡爪","grade":"月售100单","assess":"好评率67%","price":7
+        },
+        {   "shopId":4,"id":11,"title":"一只神奇的鸡（口味任选）",
+            "img":"https://cube.elemecdn.com/f/fb/855cd62aabbaf1c91429bb8235105jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：土鸡","grade":"月售999单","assess":"好评率93%","price":21.8
+        },
+        {   "shopId":4,"id":12,"title":"单人套餐A",
+            "img":"https://cube.elemecdn.com/7/d4/94c588e895c636c86b5df394d9b7ajpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"鸡米花+翅中+翅根+大腿+饮料1瓶主要原料：鸡肉","grade":"月售39单","assess":"好评率75%","price":24.8
+        },
+        {   "shopId":4,"id":13,"title":"夏日吃鸡啦",
+            "img":"https://cube.elemecdn.com/7/d4/94c588e895c636c86b5df394d9b7ajpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"大腿1只+小腿1只+翅中1只+芝士热狗棒1支+饮料1瓶主要原料：鸡翅","grade":"月售25单","assess":"好评率0.00%","price":20.8
+        },
+        {   "shopId":5,"id":14,"title":"【XO酱】车仔面",
+            "img":"https://cube.elemecdn.com/8/21/3ac5c47c9d9df0797b86a74d794b8jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：面条","grade":"月售400单","assess":"好评率100%","price":5.8
+        },
+        {   "shopId":5,"id":15,"title":"【超白金】土豪鸡扒堡",
+            "img":"https://cube.elemecdn.com/9/fb/9c4e5a1cb99e2396aba8163e41d87jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：鸡扒堡","grade":"月售400单","assess":"好评率82%","price":6.5
+        },
+        {   "shopId":5,"id":16,"title":"舌尖上dé吮指鸡.【半只】",
+            "img":"https://cube.elemecdn.com/9/a9/534dee8350c5987c910a0cdb6a690jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：鸡肉","grade":"月售700单","assess":"好评率91%","price":9.9
+        },
+        {   "shopId":6,"id":17,"title":"火烤明星4件套",
+            "img":"https://cube.elemecdn.com/4/05/329c9f3b6d7e94b74d5125f67d965png.png?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"火烤明星4件套","grade":"月售100单","assess":"好评率100%","price":29
+        },
+        {   "shopId":6,"id":18,"title":"霸气双鸡堡餐",
+            "img":"https://cube.elemecdn.com/7/43/136f571f5760748807dd6b30095d2jpg.jpg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"霸气双鸡堡餐","grade":"月售32单","assess":"好评率100%","price":29.9
+        },
+        {   "shopId":6,"id":19,"title":"派对分享餐（三、四人享）",
+            "img":"https://cube.elemecdn.com/9/2a/efae8d16e1450a6469f64f18dc95cpng.png?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：面包、牛肉饼、鸡肉、球生菜、番茄、洋葱、酸黄瓜片","grade":"月售1单","assess":"好评率0.00%","price":110
+        },
+        {   "shopId":7,"id":20,"title":"(大杯)咖啡冻奶茶",
+            "img":"https://cube.elemecdn.com/d/23/70f8051b2cee90884523e365ab379png.png?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：红茶","grade":"月售12单","assess":"好评率0.00%","price":17
+        },
+        {   "shopId":7,"id":21,"title":"(大杯)四季奶青",
+            "img":"https://cube.elemecdn.com/3/ce/5c6ab7cb7426583daa295fde9a67apng.png?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：四季春茶","grade":"月售140单","assess":"好评率100%","price":13
+        },
+        {   "shopId":7,"id":22,"title":"四季春+珍波椰",
+            "img":"https://cube.elemecdn.com/6/88/e45ecbe37c279554fc257cf5455a1png.png?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：四季春茶+珍波椰","grade":"月售17单","assess":"好评率100%","price":7
+        },
+        {   "shopId":8,"id":23,"title":"泷珠拿铁",
+            "img":"https://cube.elemecdn.com/c/ff/d20b27281ddda2f6f19f7fd866c58jpg.jpg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：咖啡粉","grade":"月售51单","assess":"好评率75%","price":11
+        },
+        {   "shopId":8,"id":24,"title":"益杯烧仙草",
+            "img":"https://cube.elemecdn.com/f/f0/555e81333dd137183aadc356a6967jpg.jpg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：仙草粉","grade":"月售400单","assess":"好评率100%","price":10
+        },
+        {   "shopId":8,"id":25,"title":"葡萄酸奶蜜",
+            "img":"https://cube.elemecdn.com/f/8c/8b2b1d111f30980d926d5dac53106jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：葡萄","grade":"月售100单","assess":"好评率100%","price":16
+        },
+        {   "shopId":9,"id":26,"title":"先生家手工（酸辣）凉皮",
+            "img":"https://cube.elemecdn.com/b/53/facbcfd962da542083ca831291ffejpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：小麦,小麦粉","grade":"月售92单","assess":"好评率100%","price":16.8
+        },
+        {   "shopId":9,"id":27,"title":"手工肉夹馍",
+            "img":"https://cube.elemecdn.com/0/d6/f1bbca845feae10b4d943da42405fjpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：小麦,小麦粉","grade":"月售62单","assess":"好评率100%","price":13.8
+        },
+        {   "shopId":9,"id":28,"title":"银耳羹",
+            "img":"https://cube.elemecdn.com/2/53/6894f7df73a003ab0c2c019c86c2fjpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：银耳","grade":"月售8单","assess":"好评率0.00%","price":4.8
+        },
+        {   "shopId":10,"id":29,"title":"【红火】2020炙烧单人餐（12件）",
+            "img":"https://cube.elemecdn.com/3/a1/22922569e44dac866c98774c58bffjpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：鸭胸,鸡蛋,蟹肉,芝士","grade":"月售400单","assess":"好评率100%","price":20.8
+        },
+        {   "shopId":10,"id":30,"title":"秘制芝麻酱八爪鱼蟹柳焗卷（单点不配送）",
+            "img":"https://cube.elemecdn.com/2/a4/9be86910f09c38e49f1788b4881b1jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：八爪鱼","grade":"月售95单","assess":"好评率100%","price":9.8
+        },
+        {   "shopId":10,"id":31,"title":"芝蛋帝王蟹肉焗卷(吞沙夹心)单点不配送",
+            "img":"https://cube.elemecdn.com/f/ac/dbabb7fdf17c29087bde83a53124ejpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：大米","grade":"月售16单","assess":"好评率100%","price":13.8
+        },
+        {   "shopId":11,"id":32,"title":"酸辣红薯粉",
+            "img":"https://cube.elemecdn.com/9/a6/ee1a9daacc92350e5df2cc214ae75jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：红薯干","grade":"月售18单","assess":"好评率0.00%","price":12
+        },
+        {   "shopId":11,"id":33,"title":"酸辣面",
+            "img":"https://cube.elemecdn.com/2/1f/b77cc9199cc1ce628c5c5ce6e136fjpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：甘薯粉","grade":"月售6单","assess":"好评率0.00%","price":12
+        },
+        {   "shopId":11,"id":34,"title":"原盅土鸡汤",
+            "img":"https://cube.elemecdn.com/2/74/773b8d50e902d2d19db0d1b188a82jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：土鸡","grade":"月售23单","assess":"好评率100%","price":9.8
+        },
+        {   "shopId":12,"id":35,"title":"招牌大粒牛丸牛筋双拼",
+            "img":"https://cube.elemecdn.com/d/05/f2b347efd66e9d7d5b6d5afa27f30jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：牛肉","grade":"月售6单","assess":"好评率0.00%","price":27
+        },
+        {   "shopId":12,"id":36,"title":"炸云吞(5只）",
+            "img":"https://cube.elemecdn.com/c/7d/2cde02af131ab19ac6930e9cc9beejpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：猪肉","grade":"月售10单","assess":"好评率0.00%","price":6
+        },
+        {   "shopId":12,"id":37,"title":"双丸",
+            "img":"https://cube.elemecdn.com/5/f0/73aa70f1826154d01a826ee874660jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：猪肉 牛肉","grade":"月售8单","assess":"好评率0.00%","price":18
+        },
+        {   "shopId":13,"id":38,"title":"鲜肉灌汤小笼包（大份一笼8个）",
+            "img":"https://cube.elemecdn.com/1/ed/439559b0ffe9075393124b2d2db38jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：猪肉","grade":"月售36单","assess":"好评率100%","price":21
+        },
+        {   "shopId":13,"id":39,"title":"韭菜猪红汤",
+            "img":"https://cube.elemecdn.com/a/42/fb82f8fdb03ad3bf737ddb53bb4d5jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：韭菜,猪血,白胡椒","grade":"月售30单","assess":"好评率100%","price":8
+        },
+        {   "shopId":13,"id":40,"title":"原味螺蛳粉",
+            "img":"https://cube.elemecdn.com/b/88/5d5c1bde888322b4971b9bc48bacajpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：大米淀粉,豆腐皮,长豇豆,花生,螺蛳","grade":"月售3单","assess":"好评率0.00%","price":12
+        },
+		{   "shopId":14,"id":41,"title":"芝士波波肠",
+            "img":"https://cube.elemecdn.com/5/13/eed69d0a5052e7cc779ad6239d294jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：芝士,香肠","grade":"月售3单","assess":"好评率0.00%","price":18
+        },
+		{   "shopId":14,"id":42,"title":"鸭屎香柠檬绿茶",
+            "img":"https://cube.elemecdn.com/d/d3/b9664f1ee4d3c75c0a34a665b1525jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：其它","grade":"月售2单","assess":"好评率0.00%","price":21
+        },
+		{   "shopId":14,"id":43,"title":"【满足套餐】冬菇肉饼饭+冻柠/柠七/柠乐",
+            "img":"https://cube.elemecdn.com/a/ab/148a29286265345e728efc94e1910jpeg.jpeg?x-oss-process=image/resize,m_lfit,w_140,h_140/watermark,g_se,x_4,y_4,image_YS8xYS82OGRlYzVjYTE0YjU1ZjJlZmFhYmIxMjM4Y2ZkZXBuZy5wbmc_eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsUF8yOA%3D%3D/quality,q_90/format,webp",
+            "raw":"主要原料：其它","grade":"月售8单","assess":"好评率100.00%","price":19.9
+        }
+    ],
+    "hotSearch":[
+        {"id":1,"title":"螺蛳粉"},{"id":2,"title":"酸菜鱼"},
+        {"id":3,"title":"水果捞"},{"id":4,"title":"黄焖鸡"},
+        {"id":5,"title":"烧烤"},{"id":6,"title":"冒菜"},
+        {"id":7,"title":"奶茶"},{"id":6,"title":"猪脚饭"},
+        {"id":5,"title":"肯德基"},{"id":6,"title":"堡仔饭"}
+    ],
+	"user": [
+    {
+      "id": 1,
+      "nickname": "xi",
+      "userId": "d9f8098065c",
+      "photo": "15767061480",
+      "password": "admin",
+      "redPacketNumber": 100,
+      "balance": 9.9,
+      "reward": 10,
+      "redPacketId": 1
+    },
+    {
+      "id": 2,
+      "nickname": "非阿萨",
+      "userId": "ge180a8c45c",
+      "photo": "12345678900",
+      "password": "admin",
+      "redPacketNumber": 0,
+      "balance": 0,
+      "reward": 6.51,
+      "redPacketId": 2
+    },
+    {
+      "id": 3,
+      "nickname": "的当.",
+      "userId": "h3i3185632e",
+      "photo": "09876543211",
+      "password": "admin",
+      "redPacketNumber": 4,
+      "balance": 10,
+      "reward": 9.03,
+      "redPacketId": 3
+    },
+    {
+      "id": 4,
+      "nickname": "xiaojiu",
+      "userId": "b1v2477400a",
+      "photo": "13670509100",
+      "password": "admin",
+      "redPacketNumber": 7,
+      "balance": 1,
+      "reward": 44.3,
+      "redPacketId": 4
+    },
+    {
+      "id": 5,
+      "nickname": "hao",
+      "userId": "l1f3382712e",
+      "photo": "17827248300",
+      "password": "admin",
+      "redPacketNumber": 1,
+      "balance": 23,
+      "reward": 20,
+      "redPacketId": 5
+    }
+  ],
+    "address":[
+        {"id":1,"name":"郑晓玲","sex":"女士","phone":"12345678900","remark":"家","definite":"广东省汕头市潮南区陇田镇"},
+        {"id":2,"name":"郑晓玲","sex":"女士","phone":"12345678900","remark":"家","definite":"广东省汕头市潮南区陇田镇"}
+    ],
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" }
+    ],
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+    "profile": { "name": "typicode" }
+  }
